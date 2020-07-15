@@ -142,16 +142,15 @@
 		</div>
 		<div class="one-third column">
 		<div class="leftFoot">
-		 <p>contacto@mushobetis.es <br>
-			www.mushobetis.es</p>
+		 <p>www.mushobetis.es</p>
 		</div>
 		</div>
 		<div class="one-third column">
 		<div class="rightFoot">
 			<!--<h2>® Musho Betis </h2>-->
 			<img src="images/izBlanco.png" width="250">
-			<!--<p>info@mushobetis.es <br>
-				www.mushobetis.es</p>-->
+			<p>contacto@mushobetis.es <br>
+				mushobetis.es</p>-->
 		</div>
 		</div>
 	</div>
