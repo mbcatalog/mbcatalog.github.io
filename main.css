@@ -275,7 +275,7 @@ html, body {
 	.showcase {
 		width: 100%;
 		height: 30rem;
-		background-image: url("https://raw.githubusercontent.com/mbguidesite/MBguidesite.github.io/master/picz/heroSet.jpg");
+		background-image: url("/picz/heroSet.jpg");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
