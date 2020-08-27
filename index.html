@@ -10,10 +10,8 @@
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
 <!-- Mobile Specific Metas –––––––––––––––––––––– -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- BOOTSTRAP, JQUERY -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script><!-- BOOTSTRAP -->
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<!-- W3.CSS -->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <!-- MAIN css -->
 	<link rel="stylesheet" type="text/css" href="main.css">
 <!-- FONTS -->
@@ -29,18 +27,17 @@
 	</script> 
 </head>
 <body>
-<!-- HERO -->
-<div class="row hero">
-	<div class="one-third column logoSub">
-		<img src="picz/logoWhite.png" class="logo">
-		<h2 class="sub"> La leyenda continúa <br> contigo </h2>
+<div class="w3-container">
+  <div class="w3-display-container w3-green hero">
+    <div class="w3-display-topleft w3-padding">
+		<img src="picz/logoWhite.png" id="logo">
 	</div>
-	<div class="two-thirds column showcase">
-	</div>
+	<h2 class="w3-display-bottomright w3-padding"> La leyenda continúa contigo </h2>
+  </div>
 </div>
+
 <!-- STOREFRONT -->
-<div class="section products">
-<div class="container">
+<div class="products">
 	<!-- ECWID SHOPPING CART -->
 	<div class="ec-cart-widget"></div>
 	<div>
@@ -53,23 +50,25 @@
 	<script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?33108108&data_platform=code&data_date=2020-07-14" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-33108108");</script>
 	</div>
 </div>
-</div>
 <br>
-<!-- FOOTER -->
-<div class="row footer">
-	<div class="two-thirds column leftFoot">
-		<p>	contacto@mushobetis.es
-			<a href="https://www.instagram.com/mushobetis.es/"target="_blank"><img src="social/Instagram_3_.png"></a>
-			<a href="https://www.facebook.com/somosmushobetis"target="_blank"><img src="social/FB.png"></a>
-		</p>
-	</div>
-	<!-- <div class="one-third column rightFoot">
-		<ul id="politicas">
-		<li> Política de envíos </li>
-		<li> Política de envíos </li>
-		<li> Política de envíos </li>
-	</div>	-->	
+
+
+<div class="w3-cell-row footer">
+  <div class="w3-container w3-green w3-cell w3-center social">
+    <a href="https://www.facebook.com/somosmushobetis" target="_blank"><img src="social/FB.png" alt="Facebook"></a><br>
+	<a href="https://www.instagram.com/mushobetis.es" target="_blank"><img src="social/IG.png" alt="Instagram"></a><br>
+	<a href="https://twitter.com/mushobetis7" target="_blank"><img src="social/TW.png" alt="Twitter"></a><br>
+  </div>
+  <div class="w3-container w3-white w3-cell w3-center contact">
+	<a href="https://mushobetis.es">®Musho Betis</a><br>
+    <a href="mailto:contacto@mushobetis.es">Contacto</a>
+  </div>
+  <div class="w3-container w3-green w3-cell w3-center">
+    <a href="service.html">Términos</a><br>
+	<a href="privacy.html">Privacidad</a><br>
+	<a href="refunds.html">Devoluciones</a>
+  </div>
 </div>
-<!-- END OF DOC -->
+
 </body>
 </html>
