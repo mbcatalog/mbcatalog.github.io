@@ -1,6 +1,6 @@
 # Mushobetis – T-shirt Store
 
-Official website of **Mushobetis**®, an independent brand focused on the design and sale of original t-shirts. This site allows customers to browse the catalog, read store policies, and place secure orders through integration with an external e-commerce platform.
+Official website of **Musho Betis**®, an independent brand focused on the design and sale of original t-shirts. This site allows customers to browse the catalog, read store policies, and place secure orders through integration with an external e-commerce platform.
 
 ---
 
